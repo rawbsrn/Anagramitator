@@ -8,8 +8,8 @@ class Anagram < String
     sorted1 = @input1.chars.sort.join
     sorted2 = @input2.chars.sort.join
     if sorted1.eql?(sorted2)
-      "this is an anagram."
-    elsif sorted1.match(sorted2)
+      "these are anagrams."
+    elsif sorted1.match?(sorted2)
       "not an anagram."
     else
       "antigram detected."
