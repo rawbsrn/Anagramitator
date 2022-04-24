@@ -1,5 +1,5 @@
 class Anagram
-  def sort(words)
+  def sort(test, words)
     #stuff goes here
   end
 end
