@@ -21,7 +21,7 @@ describe('#Anagram') do
   end
 
   it("Checks if two sentences are anagrams or antigrams.") do
-    expect(converter.sort("Sphinx of black quartz, judge my vow.", "The five boxing wizards jump quickly.")).to(eq("these are anagrams."))
+    expect(converter.sort("Waltz bad nymph, for quick jigs vex.", "Glib jocks quiz nymph to vex dwarf.")).to(eq("not an anagram."))
   end
 
 end
