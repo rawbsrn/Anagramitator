@@ -9,8 +9,10 @@ class Anagram < String
     sorted2 = @input2.chars.sort.join
     if sorted1.eql?(sorted2)
       "this is an anagram."
-    else
+    elsif sorted1.match(sorted2)
       "not an anagram."
+    else
+      "antigram detected."
       end
     end
   end

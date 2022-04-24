@@ -17,7 +17,7 @@ describe('#Anagram') do
   end
 
   it("Checks if inputs are antigrams.") do
-    expect(converter.sort("Eat", "Oof")).to(eq("Antigram detected."))
+    expect(converter.sort("Eat", "Oof")).to(eq("antigram detected."))
   end
 
 end
