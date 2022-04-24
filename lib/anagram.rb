@@ -9,17 +9,12 @@ class Anagram < String
   else
     sorted1 = @input1.chars.sort.join
     sorted2 = @input2.chars.sort.join
-    puts sorted1.inspect
-    puts sorted2.inspect
-    if sorted1.eql?(sorted2)
+    if sorted1.eql? sorted2 
       "these are anagrams."
-    else
-      puts sorted1.match?(sorted2)
-      if sorted1.match?(sorted2)
+    elsif((sorted1.squeeze <=> sorted2.squeeze) == 0)
       "not an anagram."
-      else
+    else
       "antigram detected."
-      end
     end
     end
   end
