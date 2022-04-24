@@ -14,8 +14,8 @@ class Anagram < String
     if sorted1.eql?(sorted2)
       "these are anagrams."
     else
-      puts sorted1.match?(/[sorted2]/)
-      if sorted1.match?(/[sorted2]/)
+      puts sorted1.match?(sorted2)
+      if sorted1.match?(sorted2)
       "not an anagram."
       else
       "antigram detected."
