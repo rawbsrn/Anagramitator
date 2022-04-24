@@ -16,4 +16,8 @@ describe('#Anagram') do
     expect(converter.sort("Eat", "xyz")).to(eq("invalid word detected, both inputs must contain at least one vowel."))
   end
 
+  it("Checks if inputs are antigrams.") do
+    expect(converter.sort("Eat", "Oof")).to(eq("Antigram detected."))
+  end
+
 end
