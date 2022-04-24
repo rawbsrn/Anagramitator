@@ -23,7 +23,7 @@ A simple program that tells you whether two inputs are anagrams or antigrams of 
 git clone https://github.com/rawbsrn/Anagramitator.git
 ```
 
-* _ Run the script:
+* Run the script:
 ```
 ruby anagram_script.rb eat tea
 ```
