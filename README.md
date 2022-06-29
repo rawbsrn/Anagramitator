@@ -11,21 +11,36 @@
 
 A simple program that tells you whether two inputs are anagrams or antigrams of eachother or not. 
 
-
-
 ## Setup/Installation Requirements
 
 **_Clone repository_**
 
 *  _Clone git repository to local machine_
+
 * run the command:
  ```
 git clone https://github.com/rawbsrn/Anagramitator.git
 ```
 
 * Run the script:
+
 ```
-ruby anagram_script.rb eat tea
+ruby anagram_script.rb
+```
+* Fun Inputs include:
+
+```
+Enter in your first word or phrase:
+Eat
+Enter in your second word or phrase:
+Tea
+```
+
+```
+Enter in your first word or phrase:
+"Pack my box with five dozen liquor jugs." 
+Enter in your second word or phrase:
+"Jackdaws love my big sphinx of quartz"
 ```
 
 * You may need to install Ruby on your machine in order to get working, you can follow the instructions here for more information: `https://www.learnhowtoprogram.com/ruby-and-rails-part-time/getting-started-with-ruby/ruby-installation-and-setup`
